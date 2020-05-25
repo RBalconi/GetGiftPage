@@ -11,7 +11,7 @@ function getScrollTopByHref(element) {
 
 function scrollSmothToId(event) {
   event.preventDefault();
-  const sectionTo = getScrollTopByHref(event.target);
+  const sectionTo = getScrollTopByHref(event.target) - document.getElementById('div-menu').offsetHeight;
   scrollToPosition(sectionTo);
 }
 
