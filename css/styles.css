@@ -91,6 +91,10 @@
   background-color: var(--medium-purple);
   color: #ffffff;
 }
+.space-button{
+  margin-left: 15px;
+}
+
 .btn-purple:hover{
   background-color: var(--strong-purple);
   color: #ffffff;
